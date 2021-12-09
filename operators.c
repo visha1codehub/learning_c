@@ -9,10 +9,10 @@ int main(int argc, char const *argv[])
     a = 36;
     b = 5;
 
-    printf("a + b = %d\n",a+b);
-    printf("a - b = %d\n",a-b);
-    printf("a * b = %d\n",a*b);   //%d, %f, %i//
-    printf("a / b = %d\n",a/b);
+    printf("%d + %d= %d\n",a,b,a+b);
+    printf("%d - %d= %d\n",a,b,a-b);
+    printf("%d * %d= %d\n",a,b,a*b);   //%d, %f, %i//
+    printf("%d / %d= %d\n",a,b,a/b);
 
 
     return 0;
